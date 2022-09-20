@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Ip names",
+  "omnibox": {
+    "keyword": "ipn"
+  },
+  "description": "converts ip's into names and lets you use them to get to said ip",
+  "version": "0.0.1",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background_script.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "64": "icons/icon.png"
+    },
+    "default_popup": "browserAction/index.html",
+    "default_title": "Ip names"
+  }
+}
